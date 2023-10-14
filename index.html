@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFopnzqEulP1kegv8dzWHtAZyAmRtRQpsf7qQEHsbq&s" >
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <div class="top-lining">
+            <svg xmlns="http://www.w3.org/2000/svg" width="1728" height="2" viewBox="0 0 1728 2" fill="none">
+                <path d="M0 1H1728" stroke="black"/>
+              </svg>
+        </div>
+        <div class="main-body">
+            <div  class="left"></div>
+            <div class="body">
+                <div class="main-arrow">
+                    <div class="arrow arrow-left">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M10.5999 12.7101C10.5061 12.6171 10.4317 12.5065 10.381 12.3846C10.3302 12.2628 10.3041 12.1321 10.3041 12.0001C10.3041 11.868 10.3302 11.7373 10.381 11.6155C10.4317 11.4936 10.5061 11.383 10.5999 11.2901L15.1899 6.71006C15.2836 6.6171 15.358 6.5065 15.4088 6.38464C15.4595 6.26278 15.4857 6.13207 15.4857 6.00006C15.4857 5.86805 15.4595 5.73734 15.4088 5.61548C15.358 5.49362 15.2836 5.38302 15.1899 5.29006C15.0025 5.10381 14.749 4.99927 14.4849 4.99927C14.2207 4.99927 13.9672 5.10381 13.7799 5.29006L9.18986 9.88006C8.62806 10.4426 8.3125 11.2051 8.3125 12.0001C8.3125 12.7951 8.62806 13.5576 9.18986 14.1201L13.7799 18.7101C13.9661 18.8948 14.2175 18.999 14.4799 19.0001C14.6115 19.0008 14.7419 18.9756 14.8638 18.9258C14.9856 18.8761 15.0964 18.8027 15.1899 18.7101C15.2836 18.6171 15.358 18.5065 15.4088 18.3846C15.4595 18.2628 15.4857 18.1321 15.4857 18.0001C15.4857 17.868 15.4595 17.7373 15.4088 17.6155C15.358 17.4936 15.2836 17.383 15.1899 17.2901L10.5999 12.7101Z" fill="white"/>
+                          </svg>
+                    </div>
+                    <div class=" arrow arrow-right">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M15.3998 9.88006L10.8098 5.29006C10.6224 5.10381 10.369 4.99927 10.1048 4.99927C9.84062 4.99927 9.58716 5.10381 9.3998 5.29006C9.30607 5.38302 9.23168 5.49362 9.18091 5.61548C9.13014 5.73734 9.104 5.86805 9.104 6.00006C9.104 6.13207 9.13014 6.26278 9.18091 6.38464C9.23168 6.5065 9.30607 6.6171 9.3998 6.71006L13.9998 11.2901C14.0935 11.383 14.1679 11.4936 14.2187 11.6155C14.2695 11.7373 14.2956 11.868 14.2956 12.0001C14.2956 12.1321 14.2695 12.2628 14.2187 12.3846C14.1679 12.5065 14.0935 12.6171 13.9998 12.7101L9.3998 17.2901C9.2115 17.477 9.10518 17.7312 9.10425 17.9965C9.10331 18.2619 9.20783 18.5168 9.3948 18.7051C9.58178 18.8934 9.8359 18.9997 10.1013 19.0006C10.3666 19.0016 10.6215 18.897 10.8098 18.7101L15.3998 14.1201C15.9616 13.5576 16.2772 12.7951 16.2772 12.0001C16.2772 11.2051 15.9616 10.4426 15.3998 9.88006Z" fill="#7B7B7B"/>
+                          </svg>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-start align-items-start tittle-playlist">
+                    <div class="tittle">Good morning</div>
+                    <div class="d-flex justify-content-start align-items-start my-playlist">
+                        <div class="d-flex liked-songs">
+                            <div class="d-flex justify-content-center align-items-center logo heart-logo" >
+                                <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">
+                                    <g clip-path="url(#clip0_306_568)">
+                                      <path d="M21.1461 1.10828C19.7854 1.12944 18.4545 1.50927 17.2876 2.2094C16.1207 2.90953 15.1592 3.90517 14.5002 5.09578C13.8413 3.90517 12.8798 2.90953 11.7129 2.2094C10.546 1.50927 9.21504 1.12944 7.8544 1.10828C5.68537 1.20252 3.6418 2.15137 2.17014 3.74756C0.698481 5.34374 -0.0816308 7.45749 0.000234432 9.62703C0.000234432 17.8135 13.2387 27.2687 13.8018 27.6699L14.5002 28.1641L15.1987 27.6699C15.7617 27.2711 29.0002 17.8135 29.0002 9.62703C29.0821 7.45749 28.302 5.34374 26.8303 3.74756C25.3587 2.15137 23.3151 1.20252 21.1461 1.10828Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_306_568">
+                                        <rect width="29" height="29" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center liked-text">Liked Songs</div>
+                        </div>
+                        <div class="d-flex liked-songs">
+                            <div class="d-flex justify-content-center align-items-center logo netflix-logo" >
+                                <img src="./image/Rectangle 2.png">
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center liked-text">Neffex Playlist</div>
+                        </div>
+                        <div class="d-flex liked-songs">
+                            <div class="d-flex justify-content-center align-items-center logo k-da-logo" >
+                               
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center liked-text">K/DA</div>
+                        </div>
+                        <div class="d-flex liked-songs">
+                            <div class="d-flex justify-content-center align-items-center logo electronics-mix-logo" >
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center liked-text">Dance / Electronic Mix</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="play-list"></div>
+      </div>
+    </div>
+</body>
+</html>

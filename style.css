@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.top-lining {
+    width: 100vw;
+    height: 0px;
+}
+
+.main-body {
+    background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 84% 84%;
+}
+
+.left {
+    background: #000;
+    width: 5vw;
+}
+
+.body {
+
+    width: 95vw;
+}
+
+.main-arrow {
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+    align-items: center;
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #131313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.tittle-playlist {
+    flex-direction: column !important;
+    gap: 5px;
+}
+
+.tittle {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.14px;
+}
+
+.my-playlist {
+    flex-wrap: wrap !important;
+    gap: 20px;    
+    width:80%;
+
+}
+
+.liked-songs {
+    /* width:360px;
+    margin: 30px; */
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px 0px 0px 4px;
+    
+
+}
+.heart-logo{
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+}
+.netflix-logo{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.31) 0%, rgba(166, 0, 0, 0.00) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.k-da-logo{
+  width:100px;
+  height:100px;
+  background: url(./image/rectangle3.zip), lightgray 50% / cover no-repeat;
+}
+.electronics-mix-logo{
+    background: url(./image/Spotify\ Clone\ \(2\).zip), lightgray 50% / cover no-repeat;
+
+}
+
+.liked-text {
+    border-radius: 0px 4px 4px 0px;
+    background-color: #303030;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    
+    width: 167px;
+    height: 100px;
+}
+
+.play-list {
+    background: #282828;
+    width: 100vw;
+    height: 15%;
+}
+
+.tittle-playlist {}
