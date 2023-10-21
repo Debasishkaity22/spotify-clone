@@ -13,7 +13,7 @@ a{
     height: 1px;
 }
 
-body {
+.body {
     background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
     margin: 12px 0px;
 
@@ -217,11 +217,11 @@ body {
 .k-da-logo {
     width: 100px;
     height: 75px;
-    background: url(./image/rectangle3.zip), lightgray 50% / cover no-repeat;
+    background: url(./image/converted1.png), lightgray 50% / cover no-repeat;
 }
 
 .electronics-mix-logo {
-    background: url(./image/Spotify\ Clone\ \(2\).zip), lightgray 50% / cover no-repeat;
+    background: url(./image/Rectangle\ 2.png), lightgray 50% / cover no-repeat;
 
 }
 
